@@ -53,6 +53,10 @@ li{
     width: 6vw;
 }
 
+.linkHome {
+    padding: 5px 0 5px 0;
+}
+
 #titleLogo{
     background: linear-gradient(45deg, #FF8B00, #eb260c);
     background-size: 400%;
