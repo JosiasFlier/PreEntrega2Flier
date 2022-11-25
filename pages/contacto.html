@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="icon" href="./../assets/images/logoFl.png">
-    <link rel="stylesheet" href="./../assets/styles/style.css" />
+    <link rel="stylesheet" href="./../assets/css/style.css" />
 </head>
 <body>
     <header class="header" >
@@ -43,12 +43,12 @@
         </div>
     </header>
     <main>
-        <div class="formTitle">
-            <h2>¿QUERES UTILIZAR NUESTROS SERVICIOS?</h2>
-            <h3>Comunicate con nosotros</h3>
+        <div>
+            <h2 class="formTitle">¿QUERES UTILIZAR NUESTROS SERVICIOS?</h2>
+            <h3 class="formSubtitle">Comunicate con nosotros</h3>
         </div>
 		<section>
-			<form method="post">
+			<form class="form" method="post">
 				<div class="form1">
                     <div>
                         <label for="name"></label>
@@ -74,56 +74,56 @@
                         <label for="service"></label>
                         <select name="servicio" id="service" >
                             <option value="">Seleccione un Servicio</option>
-                            <option value="Servicio 1">Servicio 1</option>
-                            <option value="Servicio 2">Servicio 2</option>
-                            <option value="Servicio 3">Servicio 3</option>
-                            <option value="Servicio 4">Servicio 4</option>
-                            <option value="Servicio 5">Servicio 5</option>
-                            <option value="Servicio 6">Servicio 6</option>
+                            <option value="Servicio 1">Cargas Completas</option>
+                            <option value="Servicio 2">Cargas Internacionales</option>
+                            <option value="Servicio 3">E-commerce / Encomiendas</option>
+                            <option value="Servicio 4">Cross Docking</option>
+                            <option value="Servicio 5">Depósito de Agroquímicos</option>
+                            <option value="Servicio 6">Warehouse</option>
                         </select>
                     </div>
                 </div>
                 <div>
-					<button class="submitButton" type="submit">Enviar</button>
+					<button class="formSubmitButton" type="submit">Enviar</button>
 				</div>
 			</form>
         </section> 
-        <div class="formTitle">
-            <h3>Lo contactaremos en las proximas 24hs</h3>
+        <div class="formMss">
+            <h4>Lo contactaremos en las proximas 24hs</h4>
         </div>   
     </main>
     <footer>
-        <div>
+        <div class="footer">
             <div class="footerTitle">
                 <h2>Estamos para servirle</h2>
             </div>
-            <div class="sucursales">
-                <div class="sucursal">
-                    <h3>Sucursal Centro</h3>
+            <div class="footerSucursal">
+                <div class="footerSucursalCentro">
+                    <h4>Sucursal Centro</h4>
                     <p>Córdoba - 5000</p>
                     <p>Av. Florencio Sanchez 223</p>
                     <p>(0351) 455-9524</p>
                     <p>centrocargas@flierlog.com</p>
                 </div>
-                <div class="sucursal">
-                    <h3>Sucursal Cuyo</h3>
+                <div class="footerSucursalCuyo">
+                    <h4>Sucursal Cuyo</h4>
                     <p>Mendoza - 5500</p>
                     <p>San Jeronimo 1905</p>
                     <p>(0263) 460-9371</p>
                     <p>cuyocargas@flierlog.com</p>
                 </div>
-                <div class="sucursal">
-                    <h3>Sucursal Noa</h3>
+                <div class="footerSucursalNoa">
+                    <h4>Sucursal Noa</h4>
                     <p>Tucuman - 4000</p>
                     <p>San Martin 524</p>
                     <p>(0381) 426-0666</p>
                     <p>noacargas@flierlog.com</p>
                 </div>
             </div>
-            <div class="imgRedes">
-                <a class="linkRedes" href="#"><img src="./../assets/images/redesFacebook.png" alt="Facebook"></a>
-                <a class="linkRedes" href="#"><img src="./../assets/images/redesInstagram.png" alt="Istagram"></a>
-                <a class="linkRedes" href="#"><img src="./../assets/images/redesTw.png" alt="Twiter"></a>
+            <div class="footerImgRedes">
+                    <a class="footerImgRedesLink" href="#"><img src="./../assets/images/redesFacebook.png" alt="Facebook"></a>
+                    <a class="footerImgRedesLink" href="#"><img src="./../assets/images/redesInstagram.png" alt="Istagram"></a>
+                    <a class="footerImgRedesLink" href="#"><img src="./../assets/images/redesTw.png" alt="Twiter"></a>   
             </div>
         </div>
     </footer>

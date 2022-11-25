@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-final-flier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origen.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiasFlier/PreEntrega3Flier.git"
+  },
+  "keywords": [
+    "node",
+    "sass",
+    "class",
+    "example"
+  ],
+  "author": "Flier Josias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosiasFlier/PreEntrega3Flier/issues"
+  },
+  "homepage": "https://github.com/JosiasFlier/PreEntrega3Flier#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
